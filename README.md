@@ -35,12 +35,13 @@ source ~/.zshrc  # Replace with the appropriate file for your shell
 
 ## 📁 Configuration
 
-Starship is configured through a `starship.toml` file. By default, Starship searches for the file in `~/.config/starship.toml`. For detailed information, please refer to the official documentation.
+Starship is configured through a `starship.toml` file. By default, Starship searches for the file in `~/.config/starship.toml`, but my config file location stores in `~/.config/starship/starship.toml`. For detailed information, please refer to the official documentation.
 
 Follow this command to use this Starship:
 
 ```shell
-git clone https://github.com/haedarrfd/oh-my-starship ~/.config
+# Adjust according to your preferred storage location.
+git clone https://github.com/haedarrfd/oh-my-starship ~/.config/starship
 ```
 
 After that, reopen your terminal and see what happens.
